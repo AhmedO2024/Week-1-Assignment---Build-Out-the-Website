@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+button {
+  border-radius: 50px;
+  height: 30px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: black;
+  scroll-snap-align: start;
+}
+img {
+  width: 50px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 650px;
+}
+#box1 {
+  background: linear-gradient(454deg, #4f4080, #6453ff);
+}
+#box2 {
+  background: linear-gradient(454deg, #4f4080, #9553ff);
+}
+#box3 {
+  background: linear-gradient(454deg, #4f4080, #ff53da);
+}
+h1 {
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  position: fixed;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+  display: block;
+  color: white;
+}
+.navbar ul :hover {
+  background-color: grey;
+}
+.navbar li {
+  float: left;
+}
+header {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 40%;
+}
